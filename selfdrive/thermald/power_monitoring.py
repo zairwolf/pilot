@@ -12,7 +12,7 @@ PANDA_OUTPUT_VOLTAGE = 5.28
 
 # Parameters
 def get_battery_capacity():
-  return _read_param("/sys/class/power_supply/battery/capacity", int)
+  return 77 # _read_param("/sys/class/power_supply/battery/capacity", int)
 
 
 def get_battery_status():
